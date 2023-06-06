@@ -19,7 +19,8 @@ class _HomeScreenState extends State<HomeScreen> {
       body: Center(child: Column(
         children: [
           Text('data'),
-          Text('data')
+          Text('data'),
+          Image.network('src')
         ],
       ),),
     );
